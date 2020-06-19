@@ -13264,7 +13264,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Workshop-Ablauf---TODO-Link-zu-Folien">Workshop-Ablauf - TODO Link zu Folien<a class="anchor-link" href="#Workshop-Ablauf---TODO-Link-zu-Folien">&#182;</a></h2><ul>
+<h2 id="Workshop-Ablauf">Workshop-Ablauf<a class="anchor-link" href="#Workshop-Ablauf">&#182;</a></h2><ul>
 <li>Python-Einführung</li>
 <li>Spielerklärung 'Nimm Streichhölzer Weg'</li>
 <li>Programmierkonzepte + Live-Demos + Selber programmieren<ol>
@@ -13914,10 +13914,12 @@ Dies ist der else Block
 <li>Beispiele für Konditionen<div class="highlight"><pre><span></span><span class="kc">True</span>
 <span class="kc">False</span>
 <span class="s2">&quot;String&quot;</span> <span class="o">==</span> <span class="s2">&quot;St&quot;</span> <span class="o">+</span> <span class="s2">&quot;ring&quot;</span>  <span class="c1"># evaluiert zu `True`</span>
-<span class="s2">&quot;33&quot;</span> <span class="o">==</span> <span class="mi">33</span>                 <span class="c1"># evaluiert zu `False` da die linke Seite ein String ist, aber die rechte Seite ein Integer</span>
+<span class="s2">&quot;33&quot;</span> <span class="o">==</span> <span class="mi">33</span>                 <span class="c1"># evaluiert zu `False` da links ein</span>
+                         <span class="c1"># String aber rechts ein Integer</span>
 <span class="mi">25</span> <span class="o">+</span> <span class="mi">8</span> <span class="o">==</span> <span class="mi">33</span>               <span class="c1"># evaluiert zu `True`</span>
 <span class="mi">25</span> <span class="o">&lt;</span> <span class="mi">33</span>                    <span class="c1"># evaluiert zu `True`</span>
 <span class="mi">25</span> <span class="o">&gt;</span> <span class="mi">33</span>                    <span class="c1"># evaluiert zu `False`</span>
+<span class="mi">25</span> <span class="o">&lt;=</span> <span class="mi">25</span>                   <span class="c1"># evaluiert zu `True`</span>
 </pre></div>
 </li>
 </ul>
@@ -13985,8 +13987,8 @@ Dies ist der else Block
     <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
     <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">):</span>  <span class="c1"># range(1, 4) gibt die Zahlen 1..3 zurück (exklusiv 4)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">):</span>  <span class="c1"># range(1, 4) gibt die Zahlen 1..3 zurück (exklusiv 4)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14198,8 +14200,8 @@ y hat den Wert 3
 <div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ergebnis_summe</span> <span class="o">=</span> <span class="n">addiere</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">ergebnis_summe</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">summe</span> <span class="o">=</span> <span class="n">addiere</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">summe</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14259,7 +14261,7 @@ y hat den Wert 5
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Fertiges-Spiel">Fertiges Spiel<a class="anchor-link" href="#Fertiges-Spiel">&#182;</a></h2><ul>
 <li>Lösung: <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Fsolution_basic.ipynb">https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Fsolution_basic.ipynb</a></li>
-<li>Lösung erweitert: <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Fsolution_advances.ipynb">https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Fsolution_advances.ipynb</a></li>
+<li>Lösung erweitert: <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Fsolution_advanced.ipynb">https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Fsolution_advanced.ipynb</a></li>
 </ul>
 
 </div>
@@ -14320,7 +14322,38 @@ y hat den Wert 5
 <h2 id="Offene-Fragen-">Offene Fragen <img src="images/question_mark.png" alt="Drawing" style="width: 50px;" /><a class="anchor-link" href="#Offene-Fragen-">&#182;</a></h2>
 </div>
 </div>
-</div></section></section>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Danke fürs Mitmachen! :)&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Danke fürs Mitmachen! :)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section></section>
 </div>
 </div>
 
