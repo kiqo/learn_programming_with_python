@@ -13213,11 +13213,21 @@ a.anchor-link {
 </div>
 
 </div>
-</aside><section><section>
+</aside><aside class="notes">
+
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Programmieren-Lernen-mit-Python-@Digitaltag-2020">Programmieren Lernen mit Python @Digitaltag 2020<a class="anchor-link" href="#Programmieren-Lernen-mit-Python-@Digitaltag-2020">&#182;</a></h2><p><div/><img src="images/python_logo.png" alt="Python Logo" style="width: 200px;"/></p>
+
+</div>
+</div>
+</div>
+</aside><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="images/cover_slide.svg" alt=""></p>
 
 </div>
 </div>
@@ -13228,10 +13238,10 @@ a.anchor-link {
 <h2 id="Verena-Dittmer">Verena Dittmer<a class="anchor-link" href="#Verena-Dittmer">&#182;</a></h2><p><img src="images/me.png" alt=""></p>
 <ul>
 <li>Abitur Neues Gymnasium Nürnberg</li>
-<li>Bachelor Angewandte Informatik Alpe-Adria-Universität Klagenfurt</li>
-<li>Master Logic and Computation Technische Universität Wien</li>
+<li>Bachelor in Angewandte Informatik, Alpe-Adria-Universität Klagenfurt</li>
+<li>Master in Logic and Computation, Technische Universität Wien</li>
 <li>Seit 8 Jahren Software entwickeln<ul>
-<li>Java, C++, Lua, Python, ... </li>
+<li>Java, Python, C++, Lua, ... </li>
 </ul>
 </li>
 <li>Software Engineer und Data Scientist bei <a href="https://www.youtube.com/watch?v=FFnlyl_9LBI&amp;feature=youtu.be">Cloudflight</a><ul>
@@ -13246,35 +13256,30 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Workshop-Ablauf">Workshop-Ablauf<a class="anchor-link" href="#Workshop-Ablauf">&#182;</a></h2><ul>
+<p><img src="images/cloudflight_slide.svg" alt=""></p>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Workshop-Ablauf---TODO-Link-zu-Folien">Workshop-Ablauf - TODO Link zu Folien<a class="anchor-link" href="#Workshop-Ablauf---TODO-Link-zu-Folien">&#182;</a></h2><ul>
 <li>Python-Einführung</li>
 <li>Spielerklärung 'Nimm Streichhölzer Weg'</li>
 <li>Programmierkonzepte + Live-Demos + Selber programmieren<ol>
-<li>Strings + <code>print</code>-Ausgabe</li>
-<li>Kommentare<ul>
-<li>Programmierteil 1</li>
-</ul>
-</li>
+<li>Strings</li>
+<li><code>print</code>-Ausgabe</li>
+<li>Kommentare</li>
+<li><code>input</code>-Eingabe</li>
 <li>Variablen</li>
-<li><code>input</code>-Eingabe<ul>
-<li>Programmierteil 2</li>
-</ul>
-</li>
-<li>Integer<ul>
-<li>Programmierteil 3</li>
-</ul>
-</li>
-<li><code>for</code>-Schleifen und <code>while</code>-Block<ul>
-<li>Programmierteil 4</li>
-</ul>
-</li>
-<li>Funktionen<ul>
-<li>Programmierteil 5</li>
-</ul>
-</li>
+<li>Integer und Rechnen mit ganzen Zahlen</li>
+<li><code>if</code>-Konditionen und Booleans</li>
+<li><code>while</code> und <code>for</code>-Schleifen</li>
+<li>Funktionen</li>
 </ol>
 </li>
-<li>Tipps zum weiteren Vorgehen</li>
+<li>Tipps zum Lernen einer Programmiersprache</li>
 </ul>
 
 </div>
@@ -13302,12 +13307,13 @@ a.anchor-link {
 <li>Eine der beliebtesten Programmiersprachen$^1$</li>
 <li>Die Sprache für Machine Learning &amp; Data Science <ul>
 <li>2018: 57% aller Befragten gaben an Python regelmäßig zu verwenden$^2$</li>
-<li>Bietet die meisten Frameworks/Libraries für Machine Learning</li>
 </ul>
 </li>
 <li>Einfach zu lernen</li>
-<li>Objektorientierte und funktionale Aspekte</li>
-<li>Interpretierte Sprache</li>
+<li>Interpretierte Sprache<ul>
+<li>Python-Interpreter: Interpretiert den geschriebenen Python Code</li>
+</ul>
+</li>
 </ul>
 <p>$^1$ <a href="http://pypl.github.io/PYPL.html">http://pypl.github.io/PYPL.html</a></p>
 <p>$^2$ <a href="https://www.kaggle.com/paultimothymooney/2018-kaggle-machine-learning-data-science-survey">https://www.kaggle.com/paultimothymooney/2018-kaggle-machine-learning-data-science-survey</a></p>
@@ -13440,8 +13446,8 @@ Dies ist alles derselbe String!!
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Kommentare">Kommentare<a class="anchor-link" href="#Kommentare">&#182;</a></h2><ul>
-<li>Kommentare sind Zeilen eines Code für den Programmierer gedacht sind (nicht zur Codeausführung!)</li>
-<li>Dies kann ähnlich wie in Strings beliebiger Text sein</li>
+<li>Kommentare sind für <strong>Programmierer</strong> gedacht sind (nicht zur Codeausführung!)</li>
+<li>Beliebiger Freitext</li>
 <li>Zeichen nach einer Raute (#) werden als Kommentar interpretiert, außer innerhalb eines Strings</li>
 </ul>
 
@@ -13519,13 +13525,32 @@ Dies ist alles derselbe String!!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Syntax-vs.-Semantik-einer-Sprache">Syntax vs. Semantik einer Sprache<a class="anchor-link" href="#Syntax-vs.-Semantik-einer-Sprache">&#182;</a></h2><ul>
-<li><strong>Syntax</strong>: Der Python-Interpreter versteht nur eine gewisse Sprache, diese muss <strong>syntaktisch korrekt</strong> sein<ul>
-<li>z.B.: <code>print("Dies ist ein String")</code> ist korrekt, aber nicht <code>print("Dies ist ein String')</code>, <code>print(Dies ist ein String)</code> oder <code>print("Dies ist ein String"</code></li>
-<li>eine Fehlermeldung gibt den Syntaxfehler an</li>
+<h2 id="Syntax-einer-Programmiersprache">Syntax einer Programmiersprache<a class="anchor-link" href="#Syntax-einer-Programmiersprache">&#182;</a></h2><ul>
+<li><strong>Syntax</strong>: Der Python-Interpreter versteht nur eine gewisse Sprache nach genau definierten Regeln, diese muss <strong>syntaktisch korrekt</strong> sein</li>
 </ul>
-</li>
-<li><strong>Semantik</strong>: Bedeutung der Sprache, was das Programm genau macht</li>
+<table>
+<thead><tr>
+<th style="text-align:center">Syntax korrekt</th>
+<th style="text-align:center">Syntax nicht korrekt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>print("Dies ist ein String")</code></td>
+<td style="text-align:center"><code>print("Dies ist ein String')</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>print('Dies ist ein String')</code></td>
+<td style="text-align:center"><code>print(Dies ist ein String)</code></td>
+</tr>
+<tr>
+<td style="text-align:center"><code>print('Dies ist' 'ein String')</code></td>
+<td style="text-align:center"><code>print("Dies ist ein String"</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Syntax nicht korrekt -&gt; <code>SyntaxError</code></li>
 </ul>
 
 </div>
@@ -13536,11 +13561,11 @@ Dies ist alles derselbe String!!
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Programmierteil-1">Programmierteil 1<a class="anchor-link" href="#Programmierteil-1">&#182;</a></h2><ul>
 <li>Code: <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask1.ipynb">https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask1.ipynb</a></li>
-<li>Schreibe den Text "Nimm Streichhölzer Weg Spiel startet!"</li>
+<li>Schreibe den Text "Nimm Streichhölzer Weg Spiel startet!" und dann "Wieviele Streichhölzer gibt es?"</li>
 </ul>
-<h4 id="Bisher-gelernt:">Bisher gelernt:<a class="anchor-link" href="#Bisher-gelernt:">&#182;</a></h4>
-<pre><code># Raute für Kommentare
-print("Dies ist ein String") # print schreibt Text</code></pre>
+<h3 id="Bereits-bekannt:">Bereits bekannt:<a class="anchor-link" href="#Bereits-bekannt:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1"># Raute für Kommentare</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span>    <span class="c1"># print schreibt Text</span>
+</pre></div>
 
 </div>
 </div>
@@ -13549,9 +13574,9 @@ print("Dies ist ein String") # print schreibt Text</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="input-zum-Einlesen-von-Benutzereingaben"><code>input</code> zum Einlesen von Benutzereingaben<a class="anchor-link" href="#input-zum-Einlesen-von-Benutzereingaben">&#182;</a></h2><ul>
-<li><code>input()</code> oder <code>input("String, der zur Eingabe auffordert")</code> kann der Benutzer einen Textinput eingeben</li>
-<li>das Programm wird solange gestoppt, bis die Enter-Taste gedrückt wird</li>
-<li>es wird immer ein String zurückgeliefert, d.h. selbst bei Eingabe von "3" kommt der String "3" und nicht die Zahl (bzw. Integer) 3 zurück</li>
+<li>Mit <code>input()</code> oder <code>input("String, der zur Eingabe auffordert")</code> kann der Benutzer einen Textinput eingeben</li>
+<li>Programm wird solange gestoppt, bis die Enter-Taste gedrückt wird</li>
+<li>Liefert immer einen String zurück, d.h. selbst bei Eingabe von "3" kommt der String "3" und nicht die Zahl (bzw. Integer) 3 zurück</li>
 </ul>
 
 </div>
@@ -13560,9 +13585,9 @@ print("Dies ist ein String") # print schreibt Text</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-
-<pre><code>input()
-eingabe = input("Ihre Eingabe? ")</code></pre>
+<div class="highlight"><pre><span></span><span class="nb">input</span><span class="p">()</span>
+<span class="n">eingabe</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div>
@@ -13573,8 +13598,9 @@ eingabe = input("Ihre Eingabe? ")</code></pre>
 <h2 id="Variablen">Variablen<a class="anchor-link" href="#Variablen">&#182;</a></h2><ul>
 <li>Kann einen <strong>variablen</strong> Wert annehmen, der sich im Laufe des Programms verändern kann</li>
 <li>In Python: Hat immer einen <strong>Namen</strong> und einen <strong>Wert</strong></li>
-<li>Bei der <strong>Zuweisung</strong> einer Variablen, wird der Variablen ein Wert zu gewiesen<ul>
-<li><code>nameDerVariable = WertDerVariable</code> die Variable <code>nameDerVariable</code> hat nach dieser Zeile den Wert <code>WertDerVariable</code></li>
+<li>Bei der <strong>Zuweisung</strong> einer Variablen wird der Variablen ein Wert zugewiesen<ul>
+<li><code>nameDerVariable = WertDerVariable</code> </li>
+<li>Variable <code>nameDerVariable</code> hat nach dieser Zeile den Wert <code>WertDerVariable</code></li>
 </ul>
 </li>
 </ul>
@@ -13585,10 +13611,10 @@ eingabe = input("Ihre Eingabe? ")</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Variablen">Variablen<a class="anchor-link" href="#Variablen">&#182;</a></h2>
-<pre><code>nameVariablen = "Wert der Variablen, hier ein String"
-x = "ein String"
-y = x</code></pre>
+<h2 id="Variablen">Variablen<a class="anchor-link" href="#Variablen">&#182;</a></h2><div class="highlight"><pre><span></span><span class="n">nameVariablen</span> <span class="o">=</span> <span class="s2">&quot;Wert der Variablen, hier ein String&quot;</span>
+<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;ein String&quot;</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">x</span>
+</pre></div>
 <p><img src="images/variables.png" alt="VariablenBeispiel"></p>
 
 </div>
@@ -13607,10 +13633,10 @@ y = x</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-
-<pre><code>input()
-x = input()
-print(x)</code></pre>
+<div class="highlight"><pre><span></span><span class="nb">input</span><span class="p">()</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div>
@@ -13620,13 +13646,13 @@ print(x)</code></pre>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Programmierteil-2">Programmierteil 2<a class="anchor-link" href="#Programmierteil-2">&#182;</a></h2><ul>
 <li>Code: <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask2.ipynb">https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask2.ipynb</a></li>
-<li>Lese einen String mit <code>input()</code> ein und weise ihn einer Variablen mit dem Namen `matchesStr zu</li>
+<li>Lese einen String mit <code>input()</code> ein und weise ihn einer Variablen mit dem Namen <code>matchesStr</code> zu</li>
 </ul>
-<h4 id="Bisher-gelernt:">Bisher gelernt:<a class="anchor-link" href="#Bisher-gelernt:">&#182;</a></h4>
-<pre><code># Raute für Kommentare
-print("Dies ist ein String") # print schreibt Text
-input("Ihre Eingabe? ") # input liest Text
-x = "Der Wert" + " einer Variablen" # x ist eine Variable</code></pre>
+<h3 id="Bereits-bekannt:">Bereits bekannt:<a class="anchor-link" href="#Bereits-bekannt:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1"># Raute für Kommentare</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span>    <span class="c1"># print schreibt Text</span>
+<span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span>         <span class="c1"># input liest Text</span>
+<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Der Wert einer Variablen&quot;</span>  <span class="c1"># x ist eine Variable</span>
+</pre></div>
 
 </div>
 </div>
@@ -13704,7 +13730,7 @@ x = "Der Wert" + " einer Variablen" # x ist eine Variable</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Integerzahlen">Integerzahlen<a class="anchor-link" href="#Integerzahlen">&#182;</a></h2><ul>
-<li>Integer ist der <strong>Datentyp</strong> für <strong>ganze Zahlen</strong> z.B. 0, 1, 15000, -3000</li>
+<li>Integer ist der <strong>Datentyp</strong> für <strong>ganze Zahlen</strong> z.B. 0, 1, 15000, -3000, ...</li>
 </ul>
 
 </div>
@@ -13748,7 +13774,7 @@ x = "Der Wert" + " einer Variablen" # x ist eine Variable</code></pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Andere <strong>Datentypen</strong>: Strings, float (z.B. 1.3, -4000.5), boolsche Wert (true oder false), Listen, ...</li>
+<li>Andere <strong>Datentypen</strong>: Strings, float (z.B. 1.3, -4000.5), Booleans (true oder false), Listen, ...</li>
 </ul>
 
 </div>
@@ -13778,7 +13804,7 @@ x = "Der Wert" + " einer Variablen" # x ist eine Variable</code></pre>
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;6&quot;</span> <span class="o">+</span> <span class="s2">&quot;3&quot;</span><span class="p">)</span>   <span class="c1"># Vorsicht!</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;6&quot;</span> <span class="o">+</span> <span class="s2">&quot;3&quot;</span><span class="p">)</span>   <span class="c1"># Vorsicht - Strings werden &quot;zusammengefügt&quot;</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="mi">6</span> <span class="o">+</span> <span class="mi">3</span><span class="p">))</span>  <span class="c1"># Addition</span>
 <span class="nb">print</span><span class="p">(</span><span class="mi">6</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span>       <span class="c1"># Addition - in print passiert die str Konvertierung automatisch!</span>
 <span class="nb">print</span><span class="p">(</span><span class="mi">6</span> <span class="o">-</span> <span class="mi">3</span><span class="p">)</span>       <span class="c1"># Subtraktion</span>
@@ -13817,17 +13843,16 @@ x = "Der Wert" + " einer Variablen" # x ist eine Variable</code></pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Programmierteil-3">Programmierteil 3<a class="anchor-link" href="#Programmierteil-3">&#182;</a></h2><ul>
-<li>Code: <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask3.ipynb">https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask3.ipynb</a></li>
+<h2 id="Programmierteil-3---Link">Programmierteil 3 - <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask3.ipynb">Link</a><a class="anchor-link" href="#Programmierteil-3---Link">&#182;</a></h2><ul>
 <li>Konvertiere den Wert der Variable <code>matchesStr</code> in einen Integer und weise diesen Wert der Variable <code>matchesInt</code> zu</li>
 </ul>
-<h4 id="Bisher-gelernt:">Bisher gelernt:<a class="anchor-link" href="#Bisher-gelernt:">&#182;</a></h4>
-<pre><code># Raute für Kommentare
-print("Dies ist ein String") # print schreibt Text
-input("Ihre Eingabe? ") # input liest Text
-x = "Der Wert" + " einer Variablen" # x ist eine Variable
-y = 12 - 4 # Subtraktion von zwei Integer-Zahlen
-z = int("12") # Konvertierung des Strings "12" in den Integer 12</code></pre>
+<h3 id="Bereits-bekannt:">Bereits bekannt:<a class="anchor-link" href="#Bereits-bekannt:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1"># Raute für Kommentare</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span>    <span class="c1"># print schreibt Text</span>
+<span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span>         <span class="c1"># input liest Text</span>
+<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Der Wert einer Variablen&quot;</span>  <span class="c1"># x ist eine Variable</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">-</span> <span class="mi">4</span>                      <span class="c1"># Subtraktion von zwei Integer-Zahlen</span>
+<span class="n">z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s2">&quot;12&quot;</span><span class="p">)</span>                   <span class="c1"># String &quot;12&quot; wird in Integer 12 konvertiert</span>
+</pre></div>
 
 </div>
 </div>
@@ -13886,14 +13911,14 @@ Dies ist der else Block
 <h2 id="Booleans-und-Konditionen">Booleans und Konditionen<a class="anchor-link" href="#Booleans-und-Konditionen">&#182;</a></h2><ul>
 <li>Nach dem <code>if</code> folgt eine <strong>Kondition</strong>, die entweder nach <code>True</code> (wahr) oder <code>False</code> (falsch) evaluiert werden muss</li>
 <li><code>True</code> und <code>False</code> sind beide Boolesche Werte (vom Datentyp <strong>Boolean</strong>)</li>
-<li>Beispiele für Konditionen
-<pre><code>  True
-  False
-  "String" == "St" + "ring"  # evaluiert zu `True`
-  "33" == 33                 # evaluiert zu `False` da die linke Seite ein String ist, aber die rechte Seite ein Integer
-  25 + 8 == 33               # evaluiert zu `True`
-  25 &lt; 33                    # evaluiert zu `True`
-  25 &gt; 33                    # evaluiert zu `False`</code></pre>
+<li>Beispiele für Konditionen<div class="highlight"><pre><span></span><span class="kc">True</span>
+<span class="kc">False</span>
+<span class="s2">&quot;String&quot;</span> <span class="o">==</span> <span class="s2">&quot;St&quot;</span> <span class="o">+</span> <span class="s2">&quot;ring&quot;</span>  <span class="c1"># evaluiert zu `True`</span>
+<span class="s2">&quot;33&quot;</span> <span class="o">==</span> <span class="mi">33</span>                 <span class="c1"># evaluiert zu `False` da die linke Seite ein String ist, aber die rechte Seite ein Integer</span>
+<span class="mi">25</span> <span class="o">+</span> <span class="mi">8</span> <span class="o">==</span> <span class="mi">33</span>               <span class="c1"># evaluiert zu `True`</span>
+<span class="mi">25</span> <span class="o">&lt;</span> <span class="mi">33</span>                    <span class="c1"># evaluiert zu `True`</span>
+<span class="mi">25</span> <span class="o">&gt;</span> <span class="mi">33</span>                    <span class="c1"># evaluiert zu `False`</span>
+</pre></div>
 </li>
 </ul>
 
@@ -14006,77 +14031,21 @@ Dies ist der else Block
 </ol>
 </li>
 </ul>
-<h4 id="Bisher-gelernt:">Bisher gelernt:<a class="anchor-link" href="#Bisher-gelernt:">&#182;</a></h4>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Raute für Kommentare</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span> <span class="c1"># print schreibt Text</span>
-<span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span> <span class="c1"># input liest Text</span>
-<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Der Wert&quot;</span> <span class="o">+</span> <span class="s2">&quot; einer Variablen&quot;</span> <span class="c1"># x ist eine Variable</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">-</span> <span class="mi">4</span> <span class="c1"># Subtraktion von zwei Integer-Zahlen</span>
-<span class="n">z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s2">&quot;12&quot;</span><span class="p">)</span> <span class="c1"># Konvertierung des Strings &quot;12&quot; in den Integer 12</span>
-<span class="k">if</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">11</span><span class="p">:</span> <span class="c1"># if-Bedingung, die eine Kondition überprüft</span>
+<h3 id="Bereits-bekannt:">Bereits bekannt:<a class="anchor-link" href="#Bereits-bekannt:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1"># Raute für Kommentare</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span>    <span class="c1"># print schreibt Text</span>
+<span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span>         <span class="c1"># input liest Text</span>
+<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Der Wert einer Variablen&quot;</span>  <span class="c1"># x ist eine Variable</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">-</span> <span class="mi">4</span>                      <span class="c1"># Subtraktion von zwei Integer-Zahlen</span>
+<span class="n">z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s2">&quot;12&quot;</span><span class="p">)</span>                   <span class="c1"># String &quot;12&quot; wird in Integer 12 konvertiert</span>
+<span class="k">if</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">11</span><span class="p">:</span>                      <span class="c1"># if-Bedingung, die eine Kondition überprüft</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;z ist größer 11&quot;</span><span class="p">)</span>
-<span class="k">while</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span> <span class="c1"># while-Schleife, die läuft solange die Kondition wahr ist</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+<span class="k">while</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>                    <span class="c1"># while-Schleife, die läuft solange </span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>                    <span class="c1"># die Kondition wahr ist</span>
     <span class="n">z</span> <span class="o">=</span> <span class="n">z</span> <span class="o">-</span> <span class="mi">1</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Dies ist ein String
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">StdinNotImplementedError</span>                  Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-12-b09eb1b5fcaf&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># Raute für Kommentare</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> print<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Dies ist ein String&#34;</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># print schreibt Text</span>
-<span class="ansi-green-fg">----&gt; 3</span><span class="ansi-red-fg"> </span>input<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Ihre Eingabe? &#34;</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># input liest Text</span>
-<span class="ansi-green-intense-fg ansi-bold">      4</span> x <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">&#34;Der Wert&#34;</span> <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34; einer Variablen&#34;</span> <span class="ansi-red-fg"># x ist eine Variable</span>
-<span class="ansi-green-intense-fg ansi-bold">      5</span> y <span class="ansi-blue-fg">=</span> <span class="ansi-cyan-fg">12</span> <span class="ansi-blue-fg">-</span> <span class="ansi-cyan-fg">4</span> <span class="ansi-red-fg"># Subtraktion von zwei Integer-Zahlen</span>
-
-<span class="ansi-green-fg">~/.local/share/virtualenvs/learn_programming_with_python-bD-k0Otm/lib/python3.8/site-packages/ipykernel/kernelbase.py</span> in <span class="ansi-cyan-fg">raw_input</span><span class="ansi-blue-fg">(self, prompt)</span>
-<span class="ansi-green-intense-fg ansi-bold">    855</span>         &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">    856</span>         <span class="ansi-green-fg">if</span> <span class="ansi-green-fg">not</span> self<span class="ansi-blue-fg">.</span>_allow_stdin<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 857</span><span class="ansi-red-fg">             raise StdinNotImplementedError(
-</span><span class="ansi-green-intense-fg ansi-bold">    858</span>                 <span class="ansi-blue-fg">&#34;raw_input was called, but this frontend does not support input requests.&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">    859</span>             )
-
-<span class="ansi-red-fg">StdinNotImplementedError</span>: raw_input was called, but this frontend does not support input requests.</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14092,21 +14061,14 @@ Dies ist der else Block
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">funktionsName1</span><span class="p">(</span><span class="n">parameter1</span><span class="p">,</span> <span class="n">parameter2</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">parameter1</span> <span class="o">+</span> <span class="n">parameter2</span>
-
-<span class="c1"># mindestens eine leere Zeile nach der Funktionsdefinition</span>
-
-<span class="k">def</span> <span class="nf">funktionsName2</span><span class="p">():</span>
-    <span class="sd">&quot;&quot;&quot; eine kurze Beschreibung der Funktion &quot;&quot;&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">funktionsName</span><span class="p">():</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Kein Parameter, kein Rückgabewert&quot;</span><span class="p">)</span>
     
-<span class="n">funktionsName1</span><span class="p">(</span><span class="s2">&quot;Hallo&quot;</span><span class="p">,</span> <span class="s2">&quot;Welt&quot;</span><span class="p">)</span>
-<span class="n">funktionsName2</span><span class="p">()</span>
-<span class="n">funktionsName2</span><span class="p">(</span><span class="s2">&quot;Hallo&quot;</span><span class="p">)</span>  <span class="c1"># Wirft einen Fehler, da der Funktion funktionsName2 kein Parameter übergeben werden darf</span>
+<span class="n">funktionsName</span><span class="p">()</span>
+<span class="n">funktionsName</span><span class="p">(</span><span class="s2">&quot;Hallo&quot;</span><span class="p">)</span>  <span class="c1"># Wirft einen Fehler, da der Funktion funktionsName kein Parameter übergeben werden darf</span>
 </pre></div>
 
     </div>
@@ -14137,12 +14099,12 @@ Dies ist der else Block
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-13-48f56d3df6b9&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">     10</span> funktionsName1<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Hallo&#34;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;Welt&#34;</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">     11</span> funktionsName2<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">---&gt; 12</span><span class="ansi-red-fg"> </span>funktionsName2<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Hallo&#34;</span><span class="ansi-blue-fg">)</span>  <span class="ansi-red-fg"># Wirft einen Fehler, da der Funktion funktionsName2 kein Parameter übergeben werden darf</span>
+<span class="ansi-green-fg">&lt;ipython-input-12-3dcf99380a5d&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">      3</span> 
+<span class="ansi-green-intense-fg ansi-bold">      4</span> funktionsName<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">----&gt; 5</span><span class="ansi-red-fg"> </span>funktionsName<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Hallo&#34;</span><span class="ansi-blue-fg">)</span>  <span class="ansi-red-fg"># Wirft einen Fehler, da der Funktion funktionsName kein Parameter übergeben werden darf</span>
 
-<span class="ansi-red-fg">TypeError</span>: funktionsName2() takes 0 positional arguments but 1 was given</pre>
+<span class="ansi-red-fg">TypeError</span>: funktionsName() takes 0 positional arguments but 1 was given</pre>
 </div>
 </div>
 
@@ -14152,7 +14114,7 @@ Dies ist der else Block
 </div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Eine Funktion mit Namen &quot;hi&quot; definiert</span>
@@ -14193,17 +14155,50 @@ Huhu!
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Eine Funktion &quot;addiere&quot; mit zwei Parametern x und y wird definiert</span>
 <span class="c1"># Diese hat als Rückgabewert (der Wert nach return) x + y</span>
 <span class="k">def</span> <span class="nf">addiere</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Gib x plus y zurueck.&quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;x hat den Wert &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;y hat den Wert &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
     <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">addiere</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
-<span class="n">ergebnis_summe</span> <span class="o">=</span> <span class="n">addiere</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>x hat den Wert 1
+y hat den Wert 3
+4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ergebnis_summe</span> <span class="o">=</span> <span class="n">addiere</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">ergebnis_summe</span><span class="p">)</span>
 </pre></div>
 
@@ -14221,7 +14216,8 @@ Huhu!
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>4
+<pre>x hat den Wert 2
+y hat den Wert 5
 7
 </pre>
 </div>
@@ -14235,86 +14231,29 @@ Huhu!
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Programmierteil-5---Link">Programmierteil 5 - <a href="https://mybinder.org/v2/gh/kiqo/learn_programming_with_python/master?filepath=tasks%2Ftask5.ipynb">Link</a><a class="anchor-link" href="#Programmierteil-5---Link">&#182;</a></h2><ul>
-<li>Erweitere die Funktion mit Namen askPlayer(), in dem ein Input gelesen wird, in ein Integer konvertiert und im Anschluss zurückgegeben wird</li>
+<li>Erweitere die Funktion askPlayer(), in der ein Input eingelesen wird, in ein Integer konvertiert und dann zurückgegeben wird</li>
 <li>askPlayer wird ohne Parameter aufgerufen und der Variablen matchesTakenInt zugewiesen (bereits implementiert)</li>
 </ul>
-<h3 id="Bisher-gelernt:">Bisher gelernt:<a class="anchor-link" href="#Bisher-gelernt:">&#182;</a></h3>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Raute für Kommentare</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span> <span class="c1"># print schreibt Text</span>
-<span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span> <span class="c1"># input liest Text</span>
-<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Der Wert&quot;</span> <span class="o">+</span> <span class="s2">&quot; einer Variablen&quot;</span> <span class="c1"># x ist eine Variable</span>
-<span class="n">y</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">-</span> <span class="mi">4</span> <span class="c1"># Subtraktion von zwei Integer-Zahlen</span>
-<span class="n">z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s2">&quot;12&quot;</span><span class="p">)</span> <span class="c1"># Konvertierung des Strings &quot;12&quot; in den Integer 12</span>
-<span class="k">if</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">11</span><span class="p">:</span> <span class="c1"># if-Bedingung, die eine Kondition überprüft</span>
+<h3 id="Bereits-bekannt:">Bereits bekannt:<a class="anchor-link" href="#Bereits-bekannt:">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1"># Raute für Kommentare</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Dies ist ein String&quot;</span><span class="p">)</span>    <span class="c1"># print schreibt Text</span>
+<span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Ihre Eingabe? &quot;</span><span class="p">)</span>         <span class="c1"># input liest Text</span>
+<span class="n">x</span> <span class="o">=</span> <span class="s2">&quot;Der Wert einer Variablen&quot;</span>  <span class="c1"># x ist eine Variable</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">-</span> <span class="mi">4</span>                      <span class="c1"># Subtraktion von zwei Integer-Zahlen</span>
+<span class="n">z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="s2">&quot;12&quot;</span><span class="p">)</span>                   <span class="c1"># String &quot;12&quot; wird in Integer 12 konvertiert</span>
+<span class="k">if</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">11</span><span class="p">:</span>                      <span class="c1"># if-Bedingung, die eine Kondition überprüft</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;z ist größer 11&quot;</span><span class="p">)</span>
-<span class="k">while</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span> <span class="c1"># while-Schleife, die läuft solange die Kondition wahr ist</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+<span class="k">while</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>                    <span class="c1"># while-Schleife, die läuft solange </span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>                    <span class="c1"># die Kondition wahr ist</span>
     <span class="n">z</span> <span class="o">=</span> <span class="n">z</span> <span class="o">-</span> <span class="mi">1</span>
-
-<span class="k">def</span> <span class="nf">addiere</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span> <span class="c1"># Funktion addiere mit den Parametern x und y</span>
-    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="c1"># x + y ist der Rückgabewert</span>
-    
-<span class="n">z</span> <span class="o">=</span> <span class="n">addiere</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="c1"># Funktionsaufruf und zuweisen des Rückgabewerts an eine Variable</span>
+<span class="k">def</span> <span class="nf">addiere</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>              <span class="c1"># Funktion addiere mit den Parametern x und y</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>                <span class="c1"># x + y ist der Rückgabewert</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">addiere</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>               <span class="c1"># Funktionsaufruf und Zuweisen des </span>
+                                <span class="c1"># Rückgabewerts an z</span>
 </pre></div>
 
-    </div>
 </div>
 </div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Dies ist ein String
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">StdinNotImplementedError</span>                  Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-16-b4a11784fd09&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># Raute für Kommentare</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> print<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Dies ist ein String&#34;</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># print schreibt Text</span>
-<span class="ansi-green-fg">----&gt; 3</span><span class="ansi-red-fg"> </span>input<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Ihre Eingabe? &#34;</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># input liest Text</span>
-<span class="ansi-green-intense-fg ansi-bold">      4</span> x <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">&#34;Der Wert&#34;</span> <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34; einer Variablen&#34;</span> <span class="ansi-red-fg"># x ist eine Variable</span>
-<span class="ansi-green-intense-fg ansi-bold">      5</span> y <span class="ansi-blue-fg">=</span> <span class="ansi-cyan-fg">12</span> <span class="ansi-blue-fg">-</span> <span class="ansi-cyan-fg">4</span> <span class="ansi-red-fg"># Subtraktion von zwei Integer-Zahlen</span>
-
-<span class="ansi-green-fg">~/.local/share/virtualenvs/learn_programming_with_python-bD-k0Otm/lib/python3.8/site-packages/ipykernel/kernelbase.py</span> in <span class="ansi-cyan-fg">raw_input</span><span class="ansi-blue-fg">(self, prompt)</span>
-<span class="ansi-green-intense-fg ansi-bold">    855</span>         &#34;&#34;&#34;
-<span class="ansi-green-intense-fg ansi-bold">    856</span>         <span class="ansi-green-fg">if</span> <span class="ansi-green-fg">not</span> self<span class="ansi-blue-fg">.</span>_allow_stdin<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 857</span><span class="ansi-red-fg">             raise StdinNotImplementedError(
-</span><span class="ansi-green-intense-fg ansi-bold">    858</span>                 <span class="ansi-blue-fg">&#34;raw_input was called, but this frontend does not support input requests.&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">    859</span>             )
-
-<span class="ansi-red-fg">StdinNotImplementedError</span>: raw_input was called, but this frontend does not support input requests.</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -14366,20 +14305,10 @@ Huhu!
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Coding challenges<ul>
+<li>Coding-Challenges<ul>
 <li><a href="https://www.codewars.com/">https://www.codewars.com/</a></li>
 </ul>
 </li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>... viel googlen!</li>
 </ul>
 
 </div>
@@ -14388,8 +14317,7 @@ Huhu!
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Fragen?">Fragen?<a class="anchor-link" href="#Fragen?">&#182;</a></h2><p><img src="images/thinking_emoji.png" alt="Drawing" style="width: 50px;"/></p>
-
+<h2 id="Offene-Fragen-">Offene Fragen <img src="images/question_mark.png" alt="Drawing" style="width: 50px;" /><a class="anchor-link" href="#Offene-Fragen-">&#182;</a></h2>
 </div>
 </div>
 </div></section></section>
